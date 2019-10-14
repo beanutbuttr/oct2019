@@ -1,0 +1,43 @@
+﻿body{
+	margin: 0;
+	/*background-color:#FC3C38;*/
+	background-color: black;
+	background-image:url(../images/pianoSS2O.jpg);
+	background-repeat:no-repeat;
+	background-position:center top;
+	background-size: 100%;
+	line-height: 2;
+	color: white;
+}
+
+
+#PianoVids{
+	background-color: rgb(255,255,255,.85);
+	border-radius: 5px;
+	margin: 5%;
+	margin-top: 15%;
+	display:flex;
+	overflow-x: auto;
+	-webkit-overflow-scrolling: touch;
+	
+	z-index: 5;
+}
+
+iframe{
+	flex-shrink: 0;
+	padding: 2.5%;
+	padding-right:2%;
+	padding-left:2%;
+	width: 35vw;
+	height: 25vw;
+}
+
+#PianoBio{
+	margin: 15%;
+	margin-top: 10%;
+	font-size: 1.2vmax;
+	line-height:3;
+	
+	z-index: 4;
+	
+}

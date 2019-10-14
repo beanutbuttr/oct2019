@@ -1,0 +1,63 @@
+﻿body{
+	font-family: 'Roboto', sans-serif;
+}
+li {
+	display: inline-block;
+	font-size: 1.2vmax;
+	margin-left: 3%;
+	margin-right: 3%;
+	
+}
+
+ul {
+	list-style-type: none;
+	position: fixed;
+	margin: auto;
+	padding: 0;
+	overflow: hidden;
+	top: 0;
+	width: 100%;
+	background-color: black;
+	text-align: center;
+	overflow: hidden;
+	z-index: 10;
+}
+
+li a {
+	display: block;
+	padding: 14% 26%;
+	/*color: rgb(58, 58, 58);*/
+	color: white;
+    text-decoration: none;
+	font-weight: bold;
+}
+li a:hover {
+/*	background-color: rgb(255, 246, 119);*/
+	font-style:italic;
+}
+
+.activePage{
+	text-decoration: underline;
+	font-style: italic;
+
+}
+
+/* width */
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #f1f1f1; 
+}
+ 
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #888; 
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #555; 
+}

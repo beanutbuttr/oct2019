@@ -1,0 +1,77 @@
+﻿body{
+	font-family: 'Roboto', sans-serif;
+	/*background-color:#FC3C38;*/
+	line-height: 2vw;
+	color: white;
+	margin: auto;
+	background-image:url(../images/mePiano.jpg);
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-attachment:fixed;
+}
+
+
+#bioTxt h3{
+	text-align: justify;	
+	font-size: 1.25vmax;
+	width: 80%;
+	margin: auto;
+	position: absolute;
+	top: 50%;
+	transform: translateY(-50%);
+	
+}
+
+
+#bioTxt{
+	background-color:rgb(255, 255, 255, .8);
+	text-align:center;
+
+
+
+	color: black;
+/*	margin-top: 10%;
+	margin-left: 15%;
+	margin-right: 15%;
+*/	
+	margin-top: 2.5%;
+	padding-top: 5%;
+	padding-bottom: 5%;
+	padding-right: 5%;
+	padding-left: 5%;
+	font-size: 1.3vmax;
+	width: 60vw;
+	height: 60vh;
+	position:absolute;
+	right: 50%;
+	left: 50%;
+	top: 50%;
+	bottom: 50%;
+	transform: translate(-50%, -50%);
+	z-index: 2;
+}
+
+#resBut{
+	font-size: 1.15vmax;
+	text-align: right;
+}
+
+a{
+	color: black;
+	text-decoration:underline;
+}
+
+iframe{
+	
+	position:absolute;
+	right: 50%;
+	left: 50%;
+	top: 100%;
+	bottom: 50%;
+	transform: translateX(-50%);
+	width: 80%;
+	height: 100%;
+	margin-bottom: 5%;
+	z-index: 1;
+}

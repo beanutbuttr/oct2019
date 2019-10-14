@@ -1,0 +1,96 @@
+﻿body{
+	font-family: 'Roboto', sans-serif;
+	/*background-color:#FC3C38;*/
+	line-height: 2;
+	color: white;
+	margin: auto;
+	background-color:white;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-attachment:fixed;
+}
+
+
+/*.ArtTabs{
+	color: black;
+	display: -webkit-box;      
+	display: -moz-box;
+	display: -ms-flexbox;
+	display: -webkit-flex;
+	display: flex;
+	align-content: flex-start;
+	padding-top: 5%;
+	flex-wrap: wrap;
+	justify-content: center;
+	padding-left: 5%;
+	padding-right: 15%;
+	flex-direction: column;
+	position: fixed;
+	
+}
+
+.threeCols{
+	display: -webkit-box;      
+	display: -moz-box;
+	display: -ms-flexbox;
+	display: -webkit-flex;
+	display: flex;
+	align-content: flex-start;
+	align-items: flex-start;
+}
+
+.secCol{
+	width: 50%;
+}
+*/
+
+
+a{
+	text-decoration: none;
+	font-style:none;
+	color: black;
+}
+
+.artTxt{
+	text-align: left;	
+	font-size: 1.2vmax;
+	padding-bottom: 15%;
+	
+}
+
+.paintings {
+	text-align: center;
+	padding-top: 35px;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 1.5vw;
+	margin-bottom: 10%;
+	margin-left: 10%;
+}
+
+img{
+	padding-top: 5%;
+}
+
+.horiz{
+	width:60%;
+}
+
+.vert{
+	width: 40%;
+}
+
+h3{
+	font-size: 1vmax;
+	color: black;
+	padding: 1.25%;
+}
+
+
+.ArtTabs{
+	position: fixed;
+	float: left;
+	margin-top: 5vmax;
+	margin-left: 7.5%;
+}
+

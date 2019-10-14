@@ -1,0 +1,63 @@
+body{
+	font-family: 'Roboto', sans-serif;
+	/*background-color:#FC3C38;*/
+	line-height: 2;
+	color: white;
+	margin: auto;
+	background-color:white;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-attachment:fixed;
+}
+
+
+.ArtTabs{
+	position: fixed;
+	float: left;
+	margin-top: 5vmax;
+	margin-left: 5%;
+}
+
+a{
+	text-decoration: none;
+	font-style:none;
+	color: black;
+}
+
+.artTxt{
+	text-align: left;	
+	font-size: 1.2vmax;
+	padding-bottom: 15%;
+	
+}
+
+.tabbed{
+	text-align: left;	
+	font-size: 1vmax;
+	padding-bottom: 15%;
+}
+
+.pics {
+	text-align: center;
+	padding-top: 2.5%;
+	height: 100%;
+	padding-left: 5%;
+}
+
+.vert{
+	display: inline-block;
+	margin-left: auto;
+	margin-right: auto;
+	padding: 5%;
+	width: 30%; 
+}
+
+.horiz {
+	display: inline-block;
+	margin-left: auto;
+	margin-right: auto;
+   	width:40%; 
+	padding: 2%;
+	padding-bottom: 15%;
+}

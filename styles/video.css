@@ -1,0 +1,73 @@
+﻿body{
+	color: white;
+	margin: auto;
+		line-height: 2;
+	background-color: white;
+/*	background-image: url('../images/edits/headsWhite.jpg');
+	background-attachment: fixed;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: 100%; */
+}
+
+#title{
+	position: absolute;
+	font-size: 3vmax;
+	color: white;
+	font-family: 'Roboto', sans-serif;
+	margin-left: 10%;
+	padding-top: 5%;
+	z-index: 6;
+}
+
+.ArtTabs{
+	position: fixed;
+	float: left;
+	margin-top: 5vmax;
+	margin-left: 5%;
+}
+
+a{
+	text-decoration: none;
+	font-style:none;
+	color: black;
+}
+
+.artTxt{
+	text-align: left;	
+	font-size: 1.2vmax;
+	padding-bottom: 15%;
+	
+}
+
+iframe {
+	width: 50vw;
+	height: 30vw;
+	padding-bottom: 5vmax;
+}
+
+.videoTable{
+	padding-top: 15%;
+	margin-left: 27.5%;
+
+}
+
+
+::-webkit-scrollbar {
+  height: 30px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #f1f1f1; 
+}
+ 
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #888; 
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #555; 
+}
